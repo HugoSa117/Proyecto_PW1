@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('fondo chido.jpg');
+    background-size: 150%;
+    animation: movimiento 25s infinite linear alternate;
+    background-attachment: fixed;
+}
+
+.datos-registro{ /*estilo de todo lo de adentro de datos registro*/
+    width: 400px;
+    background: rgba(46, 64, 83,0.7);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: arial;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.datos-registro h2{ /*estilo de "Registro de usuario"*/
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.dato{ /*estilo de todas las casillas de datos*/
+    width: 100%;
+    background: #2b3540;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: calibri ;
+    font-size: 18px;
+    color: white;
+
+}
+
+.datos-registro p{
+    height:40px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.datos-registro a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.datos-registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.datos-registro .boton{
+    width: 100%;
+    background: linear-gradient(90deg, rgb(231, 76, 60), rgb(241, 196, 15), rgb(46, 204, 113));
+    background-size: 500% 400%;
+    animation: colores 9s ease infinite;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0 ;
+    font-size: 16px;
+
+
+}
+.datos-registro .boton:hover{
+    width: 100%;
+    background: rgba(46, 64, 83,0.9);
+    border: none;
+    padding: 12px;
+    animation: color-letras 3s infinite;
+
+    margin: 16px 0 ;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/*animacion*/
+@keyframes colores {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+@keyframes color-letras {
+    0% { color: rgb(231, 76, 60); }
+    50% { color: rgb(241, 196, 15); }
+    100% { color: rgb(46, 204, 113); }
+}
+
+@keyframes movimiento{
+ 0%{
+     background-position: bottom left;
+
+ }
+ 25%{
+     background-position: top right;
+ }
+
+ 50%{
+background-position: bottom right;
+ }
+
+ 75%{
+     background-position: top left ;
+ }
+
+ 100%{
+     background-position: bottom left ;
+ }
+
+ }
+ 
