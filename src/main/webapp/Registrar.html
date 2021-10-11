@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formulario Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <script src="Registrar.js"></script>
+    </head>
+
+
+    <body>
+
+        <form action="Login.html" method="post" onsubmit="return validar();">
+            
+        <section  class="datos-registro">
+            <h2>Registro de Usuario</h2>
+            <input class="dato" type="text" name="nombres" id="nombres" placeholder="Ingrese su(s) Nombre(s)" >
+            <input class="dato" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus Apellidos" >
+            <p>Fecha de Nacimiento</p>
+            <input class="dato" type="date" name="nacimiento" id="nacimiento" required>
+            <input class="dato" type="email" name="correo" id="correo" placeholder="Ingrese su Correo Electronico" >
+            <input class="dato" type="text" name="usuario" id="usuario" placeholder="Ingrese su Nombre de Usuario" >
+            
+            <input class="dato" type="text" name="password" id="password" placeholder="Ingrese su Contrase&ntilde;a" >
+            <input class="dato" type="text" name="confirmPassw" id="confirmPassw" placeholder="Confirme su Contrase&ntilde;a" >
+
+            <p>Elija una foto de perfil</p>
+            <input type="file" id="imageFile" accept="image/*" required>
+
+            <input class="boton" id="prueba" type="submit" value="Registrar">
+            
+            <p><a href="Login.html">¿Ya tengo Cuenta?</a></p>
+            
+            
+        </section>
+        </form>
+
+    </body>
+</html>
