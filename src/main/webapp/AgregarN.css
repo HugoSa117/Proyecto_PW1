@@ -4,11 +4,14 @@
     --grey: #efefef;
 }
 
+
+
 body{
     overflow: hidden;
     font-family: 'Mulish', sans-serif;
     font-weight: 300;
     color: var(--primary);
+    
 }
 /*Barra superior*/
 
@@ -37,4 +40,20 @@ a:hover{
 #sidebar-container .menu{
     width: 16.5rem;
 }
+
+/* cuerpo de la pagina*/
+
+.datos-nuevaN{
+    width: 90vh;
+    background: rgba(33, 78, 126, .5);
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 2px;
+    font-family: arial;
+    color: var(--light);
+    
+}
+
+
 

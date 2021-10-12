@@ -21,12 +21,12 @@
 
 
 <body>
-  
+
   <div class="d-flex">
     <div id="sidebar-container" class="bg-primary">
       <div class="logo">
         <h4 class="text-light font-weight-bold">BisNotes </h4>
-  
+
       </div>
       <div class="menu">
         <a href="#" class="d-block text-light p-3"><i class="icon ion-md-apps mr-2 lead"></i>
@@ -43,15 +43,17 @@
 
     <div class="w-100">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-           
+
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
                 Usuario
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -60,46 +62,56 @@
                 <a class="dropdown-item" href="#">Cerrar sesion</a>
               </div>
             </li>
-            
+
           </ul>
-          
+
         </div>
       </nav>
       <div class="dropdown-divider"></div>
-      <h2 class="p-4 text-primary font-weight-bold">Nueva Nota</h2>
-      <br><br><br><br>
-      
-      <div class="form-row align-items-center">
-        <div class="col-auto">
-          <label class="sr-only" for="inlineFormInput">Titulo de la nota</label>
-          <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
-        </div>
-        <div class="col-auto">
-          <label class="sr-only" for="inlineFormInputGroup">Username</label>
-          <div class="input-group mb-2">
-            <div class="input-group-prepend">
-              <div class="input-group-text">#</div>
+      <h1 class="px-5 py-4 text-primary font-weight-bold">Nueva Nota</h1>
+
+
+      <section class="datos-nuevaN">
+        <h4 class=" font-weight-bold">Titulo de la nota:</h4>
+
+
+        <div class="form-row align-items-center ">
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInput">Titulo de la nota</label>
+            <input type="text" class="form-control mb-2 dato" id="inlineFormInput"
+              placeholder="Escriba el titulo de la Nota">
+          </div>
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInputGroup">Etiqueta</label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">#</div>
+              </div>
+              <input type="text" class="form-control dato" id="inlineFormInputGroup" placeholder="Etiqueta">
             </div>
-            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+          </div>
+          <div class="col-auto">
+
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
           </div>
         </div>
-        <div class="col-auto">
-          
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-2">Submit</button>
-        </div>
+        <h4 class=" py-1 font-weight-bold">Escriba el contenido de la nota:</h4>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="20"></textarea>
 
+
+      </section>
 
     </div>
 
 
-    
+
 
   </div>
 
 
-  
+
 
   <!-- Optional JavaScript; choose one of the two! -->
 
