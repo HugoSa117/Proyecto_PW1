@@ -1,5 +1,5 @@
 :root{
-    --primary: rgba(2, 7, 68, 0.973);
+    --primary: rgba(2, 7, 68, 1);
     --light: #ffffff;
     --grey: #efefef;
 }
@@ -7,6 +7,9 @@
 
 
 body{
+    background-image: url('Recursos/Notas1.jpg'); 
+    background-size: 100%;
+
     overflow: hidden;
     font-family: 'Mulish', sans-serif;
     font-weight: 300;
@@ -16,7 +19,7 @@ body{
 /*Barra superior*/
 
 .bg-light{
-    background-color: var(--light) !important;
+    background-color: rgb(228, 228, 228) !important;
 }
 
 /*barra de menu lateral*/
@@ -44,8 +47,9 @@ a:hover{
 /* cuerpo de la pagina*/
 
 .datos-nuevaN{
+    
     width: 90vh;
-    background: rgba(33, 78, 126, .5);
+    background: rgba(84, 105, 128, 0.45);
     padding: 30px;
     margin: auto;
     margin-top: 30px;
@@ -54,6 +58,5 @@ a:hover{
     color: var(--light);
     
 }
-
 
 
