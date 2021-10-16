@@ -7,8 +7,9 @@
 
 
 body{
-    background-image: url('Notas1.jpg'); 
-    background-size: 100%;
+    background-image: url('Notas2.jpg'); 
+    background-size: 1700px;
+    background-position: 25vh;
 
     overflow: hidden;
     font-family: 'Mulish', sans-serif;
@@ -46,10 +47,10 @@ a:hover{
 
 /* cuerpo de la pagina*/
 
-.datos-nuevaN{
+.datos-Notas{
     
     width: 90vh;
-    background: rgba(84, 105, 128, 0.45);
+    background: rgba(102, 134, 168, .9);
     padding: 30px;
     margin: auto;
     margin-top: 30px;
@@ -57,6 +58,11 @@ a:hover{
     font-family: arial;
     color: var(--light);
     
+}
+
+table thead{
+    background-color: #0a4f70;
+    color: var(--light);
 }
 
 
