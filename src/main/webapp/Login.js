@@ -23,7 +23,7 @@ function validar() {
         return false;
     }
     
-    else if(password.length>20 || password.length<8 || !/[a-z]/.test(password) || !/[A-Z]/.test(password) || !/[0-9]/.test(password) || !/[!"#$%&()=?¡]/.test(password)){
+    else if(password.length>20 || password.length<8 || !/[a-z]/.test(password) || !/[A-Z]/.test(password) || !/[0-9]/.test(password) || !/[!"'.¿,#$%&()=?¡]/.test(password)){
         alert("La contraseña no debe ser mayor a 20 o menor a 8 caracteres, debe contener al menos una letra mayuscula, una letra minuscula, un digito y un signo de puntuacion");
         return false;
     }
